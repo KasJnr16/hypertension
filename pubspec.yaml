@@ -1,0 +1,82 @@
+name: hypertension_app
+description: "A new Flutter project."
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+# -----------------------PACKAGES
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # fonts
+  google_fonts:
+
+  # Utitly Packages
+  http:
+  intl:
+  logger:
+  lottie:
+  url_launcher:
+  connectivity_plus:
+  flutter_native_splash:
+  smooth_page_indicator:
+  shimmer: ^3.0.0
+  image_picker: ^1.1.2
+ 
+
+  #Icons
+  iconsax: 
+  cupertino_icons:
+
+
+  # State Management
+  get:
+  get_storage:
+
+
+  #Product Specific
+  readmore:
+  flutter_rating_bar: ^4.0.1
+  carousel_slider:
+
+
+  #Firebase
+  firebase_core: ^3.6.0
+  firebase_auth:
+  cloud_firestore:
+  google_sign_in: ^6.2.1
+  firebase_storage: ^12.3.3
+  cached_network_image: ^3.4.1
+ 
+ 
+# -----------------------PACKAGES Ends Here
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: "^0.14.1"
+
+# flutter_launcher_icons:
+#   android: true
+#   ios: true
+#   image_path: "assets/logos/unisell_logo.png"
+#   remove_alpha_ios: true  
+
+flutter:
+  uses-material-design: true
+
+    # ---------------------Local Assets
+  assets:
+    - assets/logos/
+    - assets/icons/
+    - assets/videos/
+    - assets/images/on_boarding_images/
+    - assets/images/animations/
+    - assets/images/profile/
+    - assets/icons/social/
+
+ 
